@@ -1,0 +1,7 @@
+---
+output: rmarkdown::github_document
+---
+
+## eemisc
+
+Package with miscellaneous functions for ee
