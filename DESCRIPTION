@@ -1,14 +1,17 @@
 Package: eemisc
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Miscellaneous functions for ee
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Eric", "Ekholm", email = "eric.ekholm@gmail.com", role = c("aut", "cre"))
+Maintainer: Eric Ekholm <eric.ekholm@gmail.com>
+Description: Miscellaneous functions I find useful in R code. Currently contains
+    ggplot themes and a function to make a donut plot.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/ekholme/eemisc
 BugReports: https://github.com/ekholme/eemisc/issues
-
+Imports:
+    ggplot2,
+    ggtext
+RoxygenNote: 7.1.0
