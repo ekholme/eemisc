@@ -13,5 +13,8 @@ URL: https://github.com/ekholme/eemisc
 BugReports: https://github.com/ekholme/eemisc/issues
 Imports:
     ggplot2,
-    ggtext
+    ggtext,
+    knitr,
+    kableExtra,
+    magrittr
 RoxygenNote: 7.1.0

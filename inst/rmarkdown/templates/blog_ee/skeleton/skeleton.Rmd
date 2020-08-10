@@ -1,0 +1,18 @@
+---
+title: "Title Here"
+author: "EE"
+date: "YYYY-MM-DD"
+descripton: "Desc Here"
+output: html_document
+---
+
+Intro text here.
+
+## Setup
+
+```{r setup, results = "hide", message = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+library(tidyverse)
+```
+
