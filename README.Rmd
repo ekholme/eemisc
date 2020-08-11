@@ -18,3 +18,10 @@ output: rmarkdown::github_document
 ### misc
 
 - Rmd template for my [blog](www.ericekholm.com/blog/)
+
+## Installation
+
+```{r install, results = "hide", echo = FALSE, cache = FALSE}
+remotes::install_github("ekholme/eemisc")
+```
+
