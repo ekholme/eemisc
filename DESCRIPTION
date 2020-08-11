@@ -4,8 +4,7 @@ Title: Miscellaneous functions for ee
 Version: 0.1.0
 Authors@R: person("Eric", "Ekholm", email = "eric.ekholm@gmail.com", role = c("aut", "cre"))
 Maintainer: Eric Ekholm <eric.ekholm@gmail.com>
-Description: Miscellaneous functions I find useful in R code. Currently contains
-    ggplot themes and a function to make a donut plot.
+Description: Miscellaneous functions I find useful in R code.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
