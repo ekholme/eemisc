@@ -28,17 +28,20 @@
 theme_eedark <- function(size = 11.5, base_font = "sans", base_color = "#cfd8dc", accent_color = "#717786") {
   half <- size / 2
 
-  theme(line = element_line(color = base_color, size = .3, linetype = 1),
+  ret <- ggplot2::theme_minimal(base_family = base_font, base_size = size)
+
+  ret <- ret +
+    theme(line = element_line(color = base_color, size = .3, linetype = 1),
         rect = element_rect(fill = "#343d52", color = base_color),
         text = element_text(family = base_font, face = "plain", color = base_color, size = size, lineheight = .9),
         axis.line = element_blank(),
-        axis.text = element_markdown(size = size * .8, color = base_color),
+        axis.text = ggtext::element_markdown(size = size * .8, color = base_color),
         axis.ticks = element_line(color = base_color),
         axis.ticks.length = unit(half*.25, "pt"),
-        axis.title = element_markdown(size = size * 1.1),
+        axis.title = ggtext::element_markdown(size = size * 1.1),
         legend.background = element_rect(color = NA),
         legend.margin = margin(.2, .2, .2, .2, "cm"),
-        legend.key = element_rect(fill = "#343d52"),
+        legend.key = element_rect(fill = "#343d52", color = NA),
         legend.key.size = unit(1.25, "lines"),
         legend.text = element_text(size = rel(.9)),
         legend.title = element_text(hjust = 0, size = rel(1)),
@@ -49,15 +52,17 @@ theme_eedark <- function(size = 11.5, base_font = "sans", base_color = "#cfd8dc"
         panel.grid.minor = element_line(size = .2, color = accent_color),
         panel.spacing = unit(1.5*size, "pt"),
         strip.background = element_rect(fill = NA, color = NA),
-        strip.text = element_markdown(color = base_color, size = size, face = "bold"),
-        strip.text.x = element_markdown(margin = margin(t = half, b = half)),
-        strip.text.y = element_markdown(margin = margin(l = half, r = half)),
+        strip.text = ggtext::element_markdown(color = base_color, size = size, face = "bold"),
+        strip.text.x = ggtext::element_markdown(margin = margin(t = half, b = half)),
+        strip.text.y = ggtext::element_markdown(margin = margin(l = half, r = half)),
         plot.background = element_rect(color = NA),
-        plot.title = element_markdown(size = 2*size, face = "bold", margin = margin(b = .75*size)),
+        plot.title = ggtext::element_markdown(size = 2*size, face = "bold", margin = margin(b = .75*size)),
         plot.title.position = "plot",
-        plot.subtitle = element_markdown(size = size, margin = margin(b = .75*size)),
-        plot.caption = element_markdown(size = .8*size, face = "italic"),
+        plot.subtitle = ggtext::element_markdown(size = size, margin = margin(b = .75*size)),
+        plot.caption = ggtext::element_markdown(size = .8*size, face = "italic"),
         plot.caption.position = "plot",
         plot.margin = margin(t = 3*size, b = 3*size, l = 1.5*size, r = 1.5*size)
   )
+
+  ret
 }
