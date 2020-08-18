@@ -37,7 +37,7 @@ theme_eedark <- function(size = 11.5, base_font = "sans", base_color = "#cfd8dc"
         axis.line = element_blank(),
         axis.text = ggtext::element_markdown(size = size * .8, color = base_color),
         axis.ticks = element_line(color = base_color),
-        axis.ticks.length = unit(half*.25, "pt"),
+        axis.ticks.length = unit(half*.05, "pt"),
         axis.title = ggtext::element_markdown(size = size),
         legend.background = element_rect(color = NA),
         legend.margin = margin(.2, .2, .2, .2, "cm"),
