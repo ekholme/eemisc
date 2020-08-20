@@ -20,7 +20,8 @@ herm <- harrypotter::hp(n = 1, option = "HermioneGranger")
 
 opts <- options(
   ggplot2.discrete.fill = list(
-    harrypotter::hp(n = 3, option = "HermioneGranger")
+    harrypotter::hp(n = 3, option = "HermioneGranger"),
+    harrypotter::hp(n = 5, option = "Always")
   )
 )
 ```
