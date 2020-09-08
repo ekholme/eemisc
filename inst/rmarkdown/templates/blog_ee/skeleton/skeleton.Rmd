@@ -1,8 +1,8 @@
 ---
 title: "Title Here"
 author: "EE"
-date: "YYYY-MM-DD"
-descripton: "Desc Here"
+date: "`r as.character(Sys.Date())`"
+description: "Desc Here"
 output: html_document
 ---
 

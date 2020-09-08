@@ -15,6 +15,10 @@ output: rmarkdown::github_document
 
 - `make_table`: convenience function to make `kable` with my prefered style
 
+### helpers
+
+- `make_perc`: convenience function to calculate a percent and return as a string
+
 ### misc
 
 - Rmd template for my [blog](www.ericekholm.com/blog/)
