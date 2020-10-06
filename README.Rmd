@@ -27,7 +27,7 @@ output: rmarkdown::github_document
 
 This package probably won't ever make it to CRAN. If you want, you can install using the following:
 
-```{r install, results = "hide", echo = FALSE, cache = FALSE}
+```{r install, eval = FALSE}
 remotes::install_github("ekholme/eemisc")
 ```
 
