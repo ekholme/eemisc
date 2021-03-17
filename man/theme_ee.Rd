@@ -5,10 +5,11 @@
 \title{[ggplot2] theme based loosely on theme_ipsum from hrbrthemes.}
 \usage{
 theme_ee(
-  size = 11.5,
+  size = 10,
   base_font = "sans",
   base_color = "grey10",
-  accent_color = "grey40"
+  accent_color = "grey40",
+  faceted = FALSE
 )
 }
 \arguments{
@@ -19,6 +20,8 @@ theme_ee(
 \item{base_color}{color of text and ticks}
 
 \item{accent_color}{color of grid lines}
+
+\item{faceted}{logical. TRUE will reduce margins to make facets larger}
 }
 \value{
 
