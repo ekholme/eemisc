@@ -6,6 +6,7 @@
 #' @param base_font base font family
 #' @param base_color color of text and ticks
 #' @param accent_color color of grid lines
+#' @param faceted logical. TRUE will reduce margins to make facets larger
 #'
 #' @return
 #' @export
@@ -25,10 +26,18 @@
 #'  theme_eedark()
 #' }
 #'
-theme_eedark <- function(size = 11.5, base_font = "sans", base_color = "#cfd8dc", accent_color = "#717786") {
+theme_eedark <- function(size = 10, base_font = "sans", base_color = "#cfd8dc", accent_color = "#717786",
+                         faceted = FALSE) {
   half <- size / 2
 
   ret <- ggplot2::theme_minimal(base_family = base_font, base_size = size)
+
+  #controlling plot margin if faceting
+  plot.margin <- if (faceted == TRUE) {
+    margin(t = 1.5*size, b = 1.5*size, l = .75*size, r = .75*size)
+  } else {
+    margin(t = 3*size, b = 3*size, l = 1.5*size, r = 1.5*size)
+  }
 
   ret <- ret +
     theme(line = element_line(color = base_color, size = .3, linetype = 1),
