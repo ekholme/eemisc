@@ -70,7 +70,7 @@ theme_eedark <- function(size = 10, base_font = "sans", base_color = "#cfd8dc", 
         plot.subtitle = ggtext::element_markdown(size = size, margin = margin(b = .75*size)),
         plot.caption = ggtext::element_markdown(size = .8*size, face = "italic"),
         plot.caption.position = "plot",
-        plot.margin = margin(t = 3*size, b = 3*size, l = 1.5*size, r = 1.5*size)
+        plot.margin = plot.margin
   )
 
   ret
