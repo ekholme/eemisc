@@ -1,26 +1,17 @@
 
 `eemisc` has miscellaneous functions and themes for ee
 
-## Stuff
+# Stuff
 
-### ggplot
+## ggplot
 
   - `theme_ee`: a theme for ggplot
   - `theme_eedark`: a dark version of `theme_ee`
 
-### tables
+## misc
 
-  - `make_table`: convenience function to make `kable` with my prefered
-    style
-
-### helpers
-
-  - `make_perc`: convenience function to calculate a percent and return
-    as a string
-
-### misc
-
-  - Rmd template for my [blog](www.ericekholm.com/blog/)
+  - `create_ee_post()`: a helper function to create a distill blog post
+    for my [blog](www.ericekholm.com/blog/)
 
 ## Installation
 
