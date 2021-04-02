@@ -8,7 +8,6 @@
 #' @return
 #' @export
 #'
-#' @importFrom utils file.edit
 #'
 #' @examples
 #' \dontrun{
@@ -53,6 +52,6 @@ A message
 xfun::write_utf8(yaml, con)
 xfun::write_utf8(body, con)
 
-if (open == TRUE) file.edit(tmp)
+if (open == TRUE) utils::file.edit(tmp)
 
 }

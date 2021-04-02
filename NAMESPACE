@@ -3,4 +3,3 @@
 export(create_ee_post)
 export(theme_ee)
 export(theme_eedark)
-importFrom(utils,file.edit)
