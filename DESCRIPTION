@@ -1,7 +1,7 @@
 Package: eemisc
 Type: Package
 Title: Miscellaneous functions for ee
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Eric", "Ekholm", email = "eric.ekholm@gmail.com", role = c("aut", "cre"))
 Maintainer: Eric Ekholm <eric.ekholm@gmail.com>
 Description: Miscellaneous functions I find useful in R code.
@@ -14,6 +14,7 @@ Imports:
     ggplot2,
     ggtext,
     knitr,
-    kableExtra,
-    magrittr
+    magrittr,
+    distill,
+    xfun
 RoxygenNote: 7.1.1
