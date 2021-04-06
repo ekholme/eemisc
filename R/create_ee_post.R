@@ -52,6 +52,6 @@ A message
 xfun::write_utf8(yaml, con)
 xfun::write_utf8(body, con)
 
-if (open == TRUE) utils::file.edit(tmp)
+if (open == TRUE) usethis::edit_file(tmp)
 
 }
