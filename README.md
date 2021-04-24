@@ -10,6 +10,10 @@
 
 ## misc
 
+  - `big_time()`: plays the “this shit is big time” drop from Your Mom’s
+    House
+  - `big_time_op()`: wrap a function of your choosing to play the “this
+    shit is big time” drop when called
   - `create_ee_post()`: a helper function to create a distill blog post
     for my [blog](www.ericekholm.com/blog/)
 
