@@ -11,7 +11,7 @@
 #' }
 big_time <- function() {
 
-  beepr::beep(system.file("sounds/THIS SHIT IS BIG TIME.wav", package = "eemisc"))
+  beepr::beep(system.file("sounds/this_shit_is_big_time.wav", package = "eemisc"))
 }
 
 #' Big Time Function Operator

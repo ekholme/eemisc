@@ -17,5 +17,6 @@ Imports:
     magrittr,
     distill,
     xfun,
-    usethis
+    usethis,
+    beepr
 RoxygenNote: 7.1.1
