@@ -30,7 +30,7 @@ big_time <- function() {
 #'
 #' big_time_mean(x)
 #' }
-big_time_op <- function(f) {
+big_time_operator <- function(f) {
 
   force(f)
 
