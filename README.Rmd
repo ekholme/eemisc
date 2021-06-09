@@ -6,6 +6,11 @@ output: rmarkdown::github_document
 
 # Stuff
 
+## helper functions
+
+- `replace_null()`: a helper function to replace NULLs (useful for dealing with lists)
+- `%!in%`: a more intuitive way to test for x not in y
+
 ## ggplot
 
 - `theme_ee`: a theme for ggplot
