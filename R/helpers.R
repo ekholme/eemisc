@@ -14,7 +14,7 @@
 #' b <- c("a", "b")
 #' a %!in% b
 #' }
-`%!in%` <- function(lhs, rhs) {
+"%!in%" <- function(lhs, rhs) {
   !lhs %in% rhs
 }
 
