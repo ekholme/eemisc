@@ -2,7 +2,7 @@
 % Please edit documentation in R/helpers.R
 \name{\%!in\%}
 \alias{\%!in\%}
-\title{%!in% (not in)}
+\title{Not In}
 \usage{
 lhs \%!in\% rhs
 }

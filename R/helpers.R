@@ -1,5 +1,5 @@
 
-#' %!in% (not in)
+#' Not In
 #'
 #' A more intuitive way to test for x not in y
 #'
