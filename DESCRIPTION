@@ -1,7 +1,7 @@
 Package: eemisc
 Type: Package
 Title: Miscellaneous functions for ee
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: person("Eric", "Ekholm", email = "eric.ekholm@gmail.com", role = c("aut", "cre"))
 Maintainer: Eric Ekholm <eric.ekholm@gmail.com>
 Description: Miscellaneous functions I find useful in R code.
