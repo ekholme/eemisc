@@ -45,8 +45,6 @@ opts <- options(
 theme_set(theme_ee())
 ```
 
-A message
-
   '
 
 xfun::write_utf8(yaml, con)

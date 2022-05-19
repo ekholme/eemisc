@@ -10,6 +10,8 @@ eemisc
 -   `replace_null()`: a helper function to replace NULLs (useful for
     dealing with lists)
 -   `%!in%`: a more intuitive way to test for x not in y
+-   `pct_to_str()`: convert a percent to a character string (e.g. .9
+    -&gt; “90%”). Useful for making labels in plots
 
 ## ggplot
 
