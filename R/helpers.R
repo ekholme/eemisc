@@ -65,7 +65,7 @@ pct_to_str <- function(x, digits = 1, check_bounds = TRUE) {
     stop("`check_bounds` must be TRUE or FALSE")
   }
 
-  if (check_bounds == TRUE & !(x >= 0 & x <= 1)) {
+  if (check_bounds == TRUE & !(min(x) >= 0 & max(x) <= 1)) {
     stop("`x` must be between 0 and 1. If you are intentionally using a percentage outside of these bounds, set `check_bounds = FALSE`")
   }
 
